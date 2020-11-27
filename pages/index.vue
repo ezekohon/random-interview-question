@@ -5,7 +5,7 @@
         :question="currentQuestion"
       />
     </div>
-    <b-button @click="getRandomQuestion">Next question</b-button>
+    <b-button @click="getRandomQuestion">Next Question</b-button>
   </section>
 </template>
 
