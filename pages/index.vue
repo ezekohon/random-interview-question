@@ -11,7 +11,7 @@
 
 <script>
 import Card from '~/components/Card'
-import generalQuestions from '~/constants/general-questions'
+import javascriptQuestions from '~/constants/javascript-questions'
 
 export default {
   name: 'HomePage',
@@ -30,7 +30,7 @@ export default {
     }
   },
   mounted () {
-    this.allQuestions = generalQuestions;
+    this.allQuestions = javascriptQuestions;
     this.getRandomQuestion();
   }
 }
